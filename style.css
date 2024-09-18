@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    color: #222;
+    background-color: #f9f9f9; /* Added subtle background color */
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px; /* Set a max width for larger screens */
+    margin: 20px auto; /* Added top margin */
+}
+
+header {
+    background: linear-gradient(135deg, #333, #555); /* Gradient for modern look */
+    color: #fff;
+    padding: 30px 0; /* More padding for breathing space */
+    text-align: center;
+    border-radius: 8px; /* Slight border radius for softer edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px; /* Adds space between heading and paragraph */
+}
+
+header p {
+    font-size: 1.3rem;
+    letter-spacing: 1px; /* Increase spacing for readability */
+}
+
+section {
+    padding: 40px 0; /* Increased padding for larger sections */
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px; /* Make sections feel distinct */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow effect */
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #444; /* Softer color for headings */
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+#skills ul li {
+    background: #f0f0f0;
+    padding: 20px; /* More padding for content */
+    border-radius: 8px;
+    margin: 10px;
+    width: 28%; /* Slightly smaller width for better layout */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add light shadow */
+    transition: transform 0.3s ease; /* Adds interaction on hover */
+}
+
+#skills ul li:hover {
+    transform: translateY(-5px); /* Subtle hover effect */
+}
+
+#projects .project {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Shadow effect for depth */
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555; /* Softer text color */
+    margin-top: 20px;
+}
+
+footer {
+    background: #444; /* Slightly lighter footer */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 0 0 8px 8px; /* Rounding bottom edges of footer */
+}
